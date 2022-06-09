@@ -21,7 +21,7 @@ import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP_PREFIX;
  * Extension of {@link CheckedTextView} that adds a Foreground drawable.
  */
 
-@RestrictTo(LIBRARY_GROUP_PREFIX)
+//@RestrictTo(LIBRARY_GROUP_PREFIX)
 public class ForegroundCheckTextView extends AppCompatCheckedTextView {
 
     private Drawable mForeground;

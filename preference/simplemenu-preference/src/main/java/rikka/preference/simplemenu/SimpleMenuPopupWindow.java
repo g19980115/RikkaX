@@ -31,7 +31,7 @@ import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP_PREFIX;
 /**
  * Extension of {@link PopupWindow} that implements Simple Menus in Material Design 1.
  */
-@RestrictTo(LIBRARY_GROUP_PREFIX)
+//@RestrictTo(LIBRARY_GROUP_PREFIX)
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class SimpleMenuPopupWindow extends PopupWindow {
 
