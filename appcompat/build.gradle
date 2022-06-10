@@ -13,8 +13,8 @@ android {
         consumerProguardFiles 'consumer-rules.pro'
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     defaultConfig {
         // This disables the builds tools automatic vector -> PNG generation
@@ -29,6 +29,9 @@ android {
     androidResources {
         noCompress 'ttf'
         additionalParameters '--no-version-vectors'
+    }
+    lintOptions {
+        abortOnError false
     }
     publishing {
         singleVariant("release")
