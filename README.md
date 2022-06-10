@@ -1,4 +1,6 @@
-# RikkaX
+# RikkaX 
+
+[![](https://jitpack.io/v/g19980115/RikkaX.svg)](https://jitpack.io/#g19980115/RikkaX)
 
 Libraries used in Rikka apps.
 
