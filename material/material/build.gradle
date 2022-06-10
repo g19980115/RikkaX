@@ -1,7 +1,7 @@
 plugins {
     id('com.android.library')
     id('kotlin-android')
-    id('com.vanniktech.maven.publish')
+    //id('com.vanniktech.maven.publish')
     id('dev.rikka.tools.materialthemebuilder')
 }
 
@@ -26,19 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    publishing {
-        singleVariant("release")
     }
-}
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-            }
-        }
-    }
-}
 
 materialThemeBuilder {
     themes {

@@ -1,6 +1,6 @@
 plugins {
     id('com.android.library')
-    id('com.vanniktech.maven.publish')
+    //id('com.vanniktech.maven.publish')
 }
 
 android {
@@ -20,19 +20,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    publishing {
-        singleVariant("release")
     }
-}
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-            }
-        }
-    }
-}
 
 dependencies {
     implementation "androidx.fragment:fragment:1.1.0"
