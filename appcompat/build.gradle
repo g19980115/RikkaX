@@ -30,6 +30,18 @@ android {
         noCompress 'ttf'
         additionalParameters '--no-version-vectors'
     }
+    publishing {
+        singleVariant("release")
+    }
+}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+            }
+        }
+    }
 }
 
 dependencies {
