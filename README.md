@@ -94,3 +94,33 @@ MainSwitchBar & MainSwitchPreference ported from AOSP [SettingLib/MainSwitchPref
 ### [SwitchBar](./widget/switchbar)
 
 SwitchBar in system settings.
+
+```gradle
+com.github.g19980115.RikkaX:mainswitchbar:1.0.5.7
+com.github.g19980115.RikkaX:borderview:1.0.5.7
+com.github.g19980115.RikkaX:lifecycle-shared-viewmodel:1.0.5.7
+com.github.g19980115.RikkaX:core-ktx:1.0.5.7
+com.github.g19980115.RikkaX:layoutinflater:1.0.5.7
+com.github.g19980115.RikkaX:lazy:1.0.5.7
+com.github.g19980115.RikkaX:annotation:1.0.5.7
+com.github.g19980115.RikkaX:little-endian-data-stream:1.0.5.7
+com.github.g19980115.RikkaX:stub:1.0.5.7
+com.github.g19980115.RikkaX:core:1.0.5.7
+com.github.g19980115.RikkaX:multiprocess:1.0.5.7
+com.github.g19980115.RikkaX:appcompat:1.0.5.7
+com.github.g19980115.RikkaX:insets:1.0.5.7
+com.github.g19980115.RikkaX:material-help:1.0.5.7
+com.github.g19980115.RikkaX:compatibility:1.0.5.7
+com.github.g19980115.RikkaX:material-preference:1.0.5.7
+com.github.g19980115.RikkaX:recyclerview-adapter:1.0.5.7
+com.github.g19980115.RikkaX:switchbar:1.0.5.7
+com.github.g19980115.RikkaX:lifecycle-resource-livedata:1.0.5.7
+com.github.g19980115.RikkaX:material:1.0.5.7
+com.github.g19980115.RikkaX:html-ktx:1.0.5.7
+com.github.g19980115.RikkaX:html:1.0.5.7
+com.github.g19980115.RikkaX:recyclerview-ktx:1.0.5.7
+com.github.g19980115.RikkaX:parcelablelist:1.0.5.7
+com.github.g19980115.RikkaX:material-chooser:1.0.5.7
+com.github.g19980115.RikkaX:simplemenu-preference:1.0.5.7
+com.github.g19980115.RikkaX:lifecycle-viewmodel-lazy:1.0.5.7
+```
