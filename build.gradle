@@ -57,6 +57,7 @@ task clean(type: Delete) {
 }
 
 ext {
+    groupIdJitpack = "com.github.g19980115"
     groupIdBase = "dev.rikka.rikkax"
 
     POM_INCEPTION_YEAR = "2017"

@@ -34,6 +34,8 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
+                groupId = groupIdJitpack
+                artifactId = 'compatibility'
                 from components.release
             }
         }
