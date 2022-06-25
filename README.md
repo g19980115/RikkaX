@@ -96,7 +96,7 @@ MainSwitchBar & MainSwitchPreference ported from AOSP [SettingLib/MainSwitchPref
 SwitchBar in system settings.
 
 ```gradle
-def rikkax_version="1.0.5.9"
+def rikkax_version="1.0.6"
 implementation "com.github.g19980115.RikkaX:mainswitchbar:$rikkax_version"
 implementation "com.github.g19980115.RikkaX:borderview:$rikkax_version"
 implementation "com.github.g19980115.RikkaX:lifecycle-shared-viewmodel:$rikkax_version"

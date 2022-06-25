@@ -422,6 +422,10 @@ public class SimpleMenuPopupWindow extends PopupWindow {
         return w;
     }
 
+    protected void superShowAtLocation(View parent, int gravity, int x, int y) {
+        super.showAtLocation(parent, gravity, x, y);
+    }
+
     @Override
     public void showAtLocation(View parent, int gravity, int x, int y) {
         throw new UnsupportedOperationException("use show(anchor) to show the window");
