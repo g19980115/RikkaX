@@ -263,7 +263,7 @@ public class SimpleMenuPopupWindow extends PopupWindow {
      * @param container Container view that holds preference list, also used to calc width
      * @param width     Measured width of this window
      */
-    private void showPopupMenu(View anchor, View container, int width, int extraMargin) {
+    protected void showPopupMenu(View anchor, View container, int width, int extraMargin) {
         final boolean rtl = container.getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL;
 
         final int index = Math.max(0, mSelectedIndex);
