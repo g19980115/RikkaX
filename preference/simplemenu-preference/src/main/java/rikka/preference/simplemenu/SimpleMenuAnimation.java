@@ -22,7 +22,7 @@ import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
  */
 
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-class SimpleMenuAnimation {
+public class SimpleMenuAnimation {
 
     public static void startEnterAnimation(final CustomBoundsDrawable background, final View view, int width, int height,
                                            int centerX, int centerY, Rect start,
