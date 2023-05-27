@@ -268,12 +268,17 @@ public class SimpleMenuPopupWindow extends PopupWindow {
 
         final int index = Math.max(0, mSelectedIndex);
         final int count = mEntries.length;
+        int[] location = new int[2];
 
-        final int anchorTop = anchor.getTop() - container.getPaddingTop();
+        int anchorTop = anchor.getTop() - container.getPaddingTop();
+        if (anchor.getParent() != container) {
+            anchor.getLocationInWindow(location);
+            anchorTop = location[1] - container.getPaddingTop();
+        }
         final int anchorHeight = anchor.getHeight();
         final int measuredHeight = itemHeight * count + listPadding[POPUP_MENU][VERTICAL] * 2;
 
-        int[] location = new int[2];
+
         container.getLocationInWindow(location);
 
         final int containerTopInWindow = location[1] + container.getPaddingTop();
